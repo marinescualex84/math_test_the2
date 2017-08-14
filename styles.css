@@ -1,0 +1,79 @@
+body {
+	background-image: url("math_table_10op.jpg");
+}
+
+div#thetest {
+	position: relative;
+	top: 50px;
+	width: 332px;
+	height: 332px;
+	margin: auto;
+	background-color: #ea9ff4;
+	border: 1px solid #555;
+}
+
+div#start_test {
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	width: 332px;
+	height: 332px;
+	margin: auto;
+	z-index: 10;
+	background-color: #df42f4;	
+	border: 1px solid #333;
+}
+
+div#start_test h2 {
+	text-align: center;
+	color: #fff;
+}
+
+div#start_test button {
+	background-color: #fffa05;
+	color: #444;
+	border: none;
+	width: 150px;
+	margin-top: 50px;
+	margin-left: 91px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 25px;
+}
+
+div#test {
+	height: 200px;
+	background-color: #f6c9fc;
+}
+
+div#test, #test_status {
+  	padding: 10px 40px 40px 40px;
+}
+div#test_status_div {
+	height: 60px;
+	border-bottom: 2px solid #333;
+}
+
+input[type=radio] {
+	width: 16px;
+	height: 16px;
+}
+
+button#submit_answer {
+	font-size: 14px;
+}
+
+button#retry {
+	background-color: #fff;
+	border: none;
+	width: 150px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 25px;
+}
+
+button#retry:hover {
+	background-color: #ededed;
+}
+
+
